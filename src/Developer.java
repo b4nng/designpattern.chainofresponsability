@@ -26,7 +26,7 @@ public abstract class Developer {
         }
         else {
             if (developerSuperior != null){
-                developerSuperior.commit(commit);
+                return developerSuperior.commit(commit);
             }
             else{
                 return "Commit não executado";
