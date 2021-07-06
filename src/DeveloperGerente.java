@@ -1,8 +1,7 @@
 public class DeveloperGerente extends Developer{
-    public DeveloperGerente(Developer superior) {
+    public DeveloperGerente() {
         listaCommit.add(TipoCommitToDevelop.getTipoCommitToDevelop());
         listaCommit.add(TipoCommitToPreprod.getTipoCommitToPreprod());
         listaCommit.add(TipoCommitToMaster.getTipoCommitToMaster());
-        setDeveloperSuperior(superior);
     }
 }
